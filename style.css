@@ -13,6 +13,16 @@ body{
     z-index: -1;
 }
 
+#myVideo::before{
+  content: '';
+  position: absolute;
+  background: rgb(0, 0, 0, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 a{
     text-decoration: none; 
 }
